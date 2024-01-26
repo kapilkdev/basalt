@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: rgb(70, 99, 99);
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.search-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #82b18d;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin: 5px;
+}
+
+.search-button:hover {
+  background-color: #218838;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.flag img {
+  margin-bottom: 10px;
+  height: 100px;
+  width: 100px;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Add more styles as needed */
+.weather-card {
+  display: flex;
+  background-color: #f8f9fa; /* Light background color */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+
+  transition: transform 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+}
+
+.weather-card:hover {
+  transform: translateY(-5px); /* Hover effect to lift the card slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjusted shadow on hover */
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+
+.related-data {
+  flex: 1;
+}
+
+.additional-images {
+  margin-left: 20px;
+}
+
+/* Adjust other styles as needed */
+.custom-card {
+  width: 80%;
+  height: calc(100vh-500px); /* Set your preferred height */
+  padding: 20px;
+  background-color: #ffffff; /* Card background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  transition: transform 0.3s, box-shadow 0.3s; /* Add a smooth transition effect */
+  display: flex;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px); /* Hover effect to lift the card slightly */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Adjusted shadow on hover */
+}
+
+/* Additional styling can be added based on your design preferences */
+.rounded-circle{
+  border-radius: 50px;
+}
+.save-button{
+  height: 50px;
+  width: 70px;
+  bottom: 0px;
+}
