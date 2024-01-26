@@ -13,7 +13,7 @@ const Main: React.FC<MainProps> = () => {
 
   const handleGenerate = async (search:string) => {
     setIsLoading(true)
-    const apiKey = "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";
+    const apiKey = "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";
     const apiUrlImage = "https://api.openai.com/v1/images/generations";
 
     // Request for generating image
@@ -59,7 +59,7 @@ const Main: React.FC<MainProps> = () => {
   return (
     <>
       <Header onSearch={handleSearch} />
-      {weatherData && outputImage ?
+      {weatherData ?
       <Container outputImage={outputImage} weatherData={weatherData}/>
         : <div>{!isLoading ? 'Search weather by your location name' : 'Loading...'}</div>
       }
